@@ -1,4 +1,4 @@
-# Digital Preservation Rosetta API
+# Rosetta API
 
 The Rosetta Java API codebase provides a Dockerised API wrapper around the official RosettaSDK provided by ExLibris.
 
@@ -37,7 +37,7 @@ curl -X GET -H "Content-Type: application/json" -d \
 
     "filepath": "/permanent_storage/archive/foo/bar.tif" 
 
-}' api:8080/file 
+}' localhost:8080/file 
 
  
 
@@ -78,7 +78,7 @@ This method:
  
 # request 
 
-curl -X POST -F "file=@./example.txt" api:8080/file/refresh >> output.json 
+curl -X POST -F "file=@./example.txt" localhost:8080/file/refresh >> output.json 
 
  
 
