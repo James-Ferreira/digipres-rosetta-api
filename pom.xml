@@ -131,7 +131,7 @@
                     </goals>
                 <configuration>
                     <wsdlUrls>
-                        <wsdlUrl>https://##########/dpsws/repository/IEWebServices?wsdl</wsdlUrl>
+                        <wsdlUrl>https://REPLACE_ME/dpsws/repository/IEWebServices?wsdl</wsdlUrl>
                     </wsdlUrls>
                     <packageName>com.exlibris.dps</packageName>
                     <sourceDestDir>${project.build.directory}/generated-sources</sourceDestDir>
